@@ -9,7 +9,7 @@ public class YearToCentury { //the class name is 'YearToCentury'
 	int year; //declare instance variable
 	
 	/**
-	 * main method does a practical running.
+	 * put an years by keyboard and convert them to century and print century.
 	 */
 	public static void main(String[] args) { //make a main method
 		int yr = 0; //initialize local variable

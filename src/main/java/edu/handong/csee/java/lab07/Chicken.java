@@ -10,7 +10,7 @@ public class Chicken { //the class name is 'Chicken'
 	private int stars; //declare instance variable using a private keyword
 	
 	/**
-	 * main method does a practical running.
+	 * set and get three menus and print their name and rating stars
 	 */
 	public static void main(String[] args) { //make a main method
 		Chicken menu1 = new Chicken("Chili_Sauce", 18000, 4); //instantiate menu1 with parameter menu1's name, price, stars
@@ -37,6 +37,7 @@ public class Chicken { //the class name is 'Chicken'
 		this.stars = stars; //instance variable's value is parameter's value
 	}
 	
+	//getters
 	/**
 	 * this method returns a instance variable 'name'
 	 */
@@ -58,6 +59,7 @@ public class Chicken { //the class name is 'Chicken'
 		return this.stars; //returns a instance variable stars's value
 	}
 	
+	//setters
 	/**
 	 * this method sets instance variable name's value by parameter 
 	 */
